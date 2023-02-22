@@ -36,20 +36,7 @@
   }
 }
 .hero__button {
-  background-color: #000000;
-
-  border-radius: 100px;
-  padding: 9px 23px;
-  transition: background-color 250ms ease 0s, color 250ms ease 0s;
-
-  font-size: 17px;
-  line-height: 1.17; /* 20/17 */
-  color: #ffffff;
-
-  &:hover {
-    background-color: $hoverBlack;
-    color: #d9d5d5;
-  }
+  
 }
 .hero__image {
   width: 100%;
