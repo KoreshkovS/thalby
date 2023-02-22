@@ -2,11 +2,11 @@ body {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
 }
-.logo {
-  width: 80px;
-}
 [class*="__container"] {
   max-width: 1098px;
   padding: 0 15px;
   margin: 0 auto;
+}
+.logo {
+  width: 80px;
 }

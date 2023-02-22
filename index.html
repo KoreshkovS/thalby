@@ -16,12 +16,70 @@
   <body>
     <header class="header">
       <div class="header__container">
-          <a href=""
-            ><img class="header__logo logo" src="./img/icons/logo.svg" alt="logo"
-          /></a>
+        <button
+          type="button"
+          class="menu-button"
+          aria-expanded="false"
+          aria-controls="menu-container"
+          data-menu-button
+        >
+          <svg width="40" height="40" class="mobile-menu-icon">
+            <use class="icon-cross" href="./img/icons/icons.svg#cross"></use>
+            <use class="icon-menu" href="./img/icons/icons.svg#menu"></use>
+          </svg>
+        </button>
+        <div class="menu-container" id="menu-container" data-menu>
+          <nav class="navigation">
+            <ul class="navigation__list">
+              <li class="navigation__item">
+                <a href="" class="navigation__link">Shop</a>
+              </li>
+              <li class="navigation__item">
+                <a href="" class="navigation__link">Collections</a>
+              </li>
+              <li class="navigation__item">
+                <a href="" class="navigation__link">Try a Free Guide</a>
+              </li>
+              <li class="navigation__item">
+                <a href="" class="navigation__link">Stories</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <a href=""
+          ><img class="header__logo logo" src="./img/icons/logo.svg" alt="logo"
+        /></a>
+        <ul class="cart__list">
+          <li class="cart__item">
+            <a href="" class="cart__link"
+              ><svg class="cart__icon">
+                <use href="./img/icons/icons.svg#instagram"></use></svg></a>
+          </li>
+          <li class="cart__item">
+            <a href="" class="cart__link"
+              ><svg class="cart__icon">
+                <use href="./img/icons/icons.svg#magnifier"></use></svg></a>
+          </li>
+          <li class="cart__item">
+            <a href="" class="cart__link"
+              ><svg class="cart__icon">
+                <use href="./img/icons/icons.svg#cart"></use></svg></a>
+          </li>
+        </ul>
       </div>
     </header>
-    <main></main>
+    <main>
+      <section class="hero">
+        <div class="hero__container">
+          <div class="hero__contant">
+            <h1 class="hero__title">Fall deeper in love with humanity.</h1>
+            <p class="hero__text">Get to know the world through our concise, informative and inspiring guides.</p>
+            <button type="button" class="hero__button">Shop Now</button>
+          </div>
+          <div class="hero__image"><img src="./img/hero/hero-books.jpg" alt="Hero Books" class="hero__image"></div>
+        </div>
+      </section>
+    </main>
     <footer></footer>
     <script src="./js/mobile-menu.js"></script>
   </body>
