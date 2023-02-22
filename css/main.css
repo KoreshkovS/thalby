@@ -119,6 +119,7 @@ body {
     left: 0;
     width: 100%;
     background-color: #ffffff;
+    padding-bottom: 20px;
   }
   .menu-container.is-open {
     display: -webkit-box;
@@ -217,4 +218,22 @@ body {
   height: 20px;
   -webkit-transition: fill 250ms ease 0s;
   transition: fill 250ms ease 0s;
+}
+
+.hero {
+  background-color: #f0efeb;
+}
+
+.hero__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 20px;
 }/*# sourceMappingURL=main.css.map */
